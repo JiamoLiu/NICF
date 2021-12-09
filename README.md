@@ -11,10 +11,10 @@ docker pull tensorflow/tensorflow:1.15.2-py3-jupyter
 docker run -it --rm tensorflow/tensorflow:1.15.2-py3-jupyter bash 
 
 - Inside the docker bash terminal, install git, and other modules using the following:
-apt-get update
-apt-get install git
-pip install ipdb
-pip install sklearn
+apt-get update \\
+apt-get install git \\
+pip install ipdb \\ 
+pip install sklearn \\
 
 - Clone the Repo:
 git clone https://github.com/JiamoLiu/NICF_Jiamo.git
