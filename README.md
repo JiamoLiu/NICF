@@ -1,4 +1,13 @@
 # NICF
+Group: Jiamo Liu, Yuqing Wang<br/> 
+Data format Explaination:<br/> 
+- First number in each line of data/env.dat is the userId, the demo set has userId 1-100 <br/> 
+- All numbers after the first number is in the format a:b, example:<br/> 
+3:4 means user gives movie ID 3 a rating of 4 stars.<br/> 
+
+
+
+
 Instruction for environment configuration:
 
 - Install docker, relevant info: <br/> 
